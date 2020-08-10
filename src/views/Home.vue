@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div>
+  <hr>
+  <h2>~ ~ Данное приложение реализовано в рамках тестового задания ~ ~</h2>
+  <h2>~ И представляет из себя интерфейс управления списком риэлторов ~</h2>
+  <hr>
+  <h3>Немного описания:</h3>
+  <ul>
+    <li>С помощью выдвигающегося меню слева вы можете перейти на страницы "Список риэлторов" и "Новый риэлтор"</li>
+    <li>Сверху находится строка поиска риэлторов по любому из доступных полей</li>
+    <li>На странице "Список риэлторов" при двойном клике по строке можно открыть редактирование данных</li>
+
+  </ul>
+</div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  name: "Main-menu",
+};
 </script>
